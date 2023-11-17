@@ -3,12 +3,14 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import './components/styles.css'
 
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 
 const App = () => {
   return (
     <>
       <Navbar/>
+      <Hero/>
     </>
   )
 }
